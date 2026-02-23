@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    
+    <title>Factura - Tienda de Sandalias</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                
+                <a class="navbar-brand" href="/">Tienda de Sandalias</a>
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="/C:/Users/HP/Desktop/proyecto_tienda/templates/index.html">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="/C:/Users/HP/Desktop/proyecto_tienda/templates/about.html">Acerca de</a></li>
@@ -24,15 +24,38 @@
         </nav>
     </header>
 
-    <!-- Contenido de la página de inicio -->
-    <div class="container text-center mt-5">
-        <h1 class="text-primary">
-            Bienvenido a Tienda de Sandalias
-        </h1>
-        <p class="lead">
-            Catálogo y ofertas disponibles
-        </p>
-        <a href="C:/Users/HP/Desktop/proyecto_tienda/templates/productos.html" class="btn btn-success">Ver Productos</a>
+    <!-- Contenido de la página de factura -->
+    <div class="container mt-5">
+        <h2 class="text-center">Factura</h2>
+        <p>Aquí se generará la factura de tu compra. Puedes revisar el detalle de tu compra y realizar el pago.</p>
+        <!-- Aquí iría la lógica para mostrar una factura real (simulada) -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sandalia Playa</td>
+                    <td>1</td>
+                    <td>$20</td>
+                </tr>
+                <tr>
+                    <td>Sandalia Casual</td>
+                    <td>2</td>
+                    <td>$30</td>
+                </tr>
+                <tr>
+                    <td>Sandalia Deportiva</td>
+                    <td>1</td>
+                    <td>$40</td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Total: $120</h4>
     </div>
 
     <!-- Pie de página -->
